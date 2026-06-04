@@ -41,6 +41,21 @@ Built using **Python**, **Streamlit**, **Pandas**, and **Plotly**, this project 
 
 ---
 
+## 🚧 Challenges Faced
+
+During development, several challenges were encountered:
+
+- Managing persistent data storage using CSV files while maintaining data consistency.
+- Handling different date formats when loading and saving subject information.
+- Debugging issues where newly added subjects would overwrite previously stored subjects.
+- Integrating and testing AI-powered study recommendations.
+- Designing a modular architecture that separates UI components, business logic, and data management.
+- Creating a study scheduling algorithm that balances exam urgency, priority levels, and available study time.
+
+These challenges provided valuable experience in debugging, data handling, application architecture, and problem-solving.
+
+---
+
 ## 🛠️ Tech Stack
 
 * Python 3.10+
