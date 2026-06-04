@@ -1,0 +1,62 @@
+/* assets/style.css */
+/* ─────────────────────────────────────────── */
+/* Custom styles for AI Study Planner         */
+/* ─────────────────────────────────────────── */
+
+/* ── Global font and background ── */
+html, body, [class*="css"] {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ── Hide Streamlit default branding ── */
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
+header { visibility: hidden; }
+
+/* ── Metric cards ── */
+[data-testid="metric-container"] {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 16px !important;
+}
+
+/* ── Buttons ── */
+.stButton > button {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ── Expander ── */
+[data-testid="expander"] {
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+/* ── Sidebar ── */
+section[data-testid="stSidebar"] {
+    background: #f8f9fa;
+}
+
+/* ── Progress bar ── */
+.stProgress > div > div {
+    background: linear-gradient(90deg, #4ECDC4, #45B7D1);
+    border-radius: 99px;
+}
+
+/* ── Tab styling ── */
+[data-testid="stTab"] {
+    font-weight: 500;
+}
+
+/* ── Info/success boxes ── */
+.stAlert {
+    border-radius: 10px;
+}
