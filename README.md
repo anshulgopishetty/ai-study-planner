@@ -176,7 +176,7 @@ Use the dashboard and progress pages to visualise productivity, study hours, and
 
 ## 👤 Author
 
-Anshul Gopi Shetty
+Anshul Gopishetty
 
 GitHub: https://github.com/anshulgopishetty
 
